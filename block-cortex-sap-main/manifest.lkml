@@ -1,15 +1,15 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "bigquery-sandbox"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "tgs-internal-saige-sandbox-001"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "Cortex_ML"
   export: override_required
 }
 
